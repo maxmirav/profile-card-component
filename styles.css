@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
 }
 
 :root{
@@ -19,8 +20,41 @@ body{
 }
 
 .profile-card-container{
-    background-color: blue;
-    width: 300px;
+    background-color: lightblue;
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
+/*******PROFILE PICTURE**********/
+.picture-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid red;
+}
+
+.pic-bg{
+    width: 100%;
+}
+
+.profile-pic{
+    position: relative;
+    bottom: 50px;
+    border-radius: 50%;
+}
+/*******************************/
+
+/*********TEXT CONTENT**********/
+h1,
+p{
+    font-size: 18px;
+}
+
+header{
+    text-align: center;
+}
+
+
+/*******************************/
 
