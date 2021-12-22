@@ -17,12 +17,19 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
+    /**BACKGROUND**/
+    background-color: var(--dark-cyan);
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 50vw bottom 50vh, left 50vw top 50vh; /*answer from https://www.youtube.com/watch?v=NZpG9EBKYWc -- i really can't solve this on my own :(*/
+    background-repeat: no-repeat, no-repeat;
+    /**************/
 }
 
 .profile-card-container{
-    background-color: lightblue;
+    background-color: white;
     width: 350px;
-    border-radius: 10px;
+    border-radius: 15px;
     overflow: hidden;
 }
 
@@ -31,7 +38,6 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 2px solid red;
 }
 
 .pic-bg{
@@ -42,6 +48,7 @@ body{
     position: relative;
     bottom: 50px;
     border-radius: 50%;
+    border: 5px solid white;
 }
 /*******************************/
 
@@ -49,12 +56,43 @@ body{
 h1,
 p{
     font-size: 18px;
+    font-weight: 700;
+}
+
+span{
+    font-weight: 400;
+    color: var(--dark-grayish-blue);
+}
+
+hr{
+    margin-top: 25px;
+    color: var(--dark-gray);
+}
+
+.text-content-container{
+    position: relative;
+    bottom: 20px;
 }
 
 header{
     text-align: center;
 }
 
+.socials{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
+.social-item{
+    width: 30%;
+}
+
+.city{
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+    font-size: 1em;
+}
 /*******************************/
 
