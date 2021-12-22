@@ -57,6 +57,7 @@ h1,
 p{
     font-size: 18px;
     font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
 }
 
 h1{
