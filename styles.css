@@ -71,8 +71,8 @@ span{
 
 hr{
     margin-top: 25px;
-    color: var(--dark-grayish-blue);
-    opacity: 0.5;
+    color: var(--dark-gray);
+    opacity: 0.2;
 }
 
 .text-content-container{
